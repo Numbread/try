@@ -1,0 +1,264 @@
+.ColorDiv{
+    position: relative;
+}
+.logo-pic{
+    width: 76px;
+
+}
+.logo-pic1{
+ position: absolute;
+ left: 16px;
+ top: 2px;
+}
+.Color1{
+    flex: 1;
+    height: 25px;
+    background-color: #3C1C1C;
+
+}
+.Color2{
+    flex: 1;
+    height: 48px;
+    background-color: #EED4BD;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.Color2 h4{
+    margin-left: 100px;
+    font-size: 27px;
+}
+
+.Flex1{
+    width: 400px;
+    
+}
+.Flex2{
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+}
+.Flex2 a{
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 17px;
+    color: black;
+}
+
+
+
+.Flex3{
+    width: 300px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    position: absolute;
+    width: 19px;
+    right: 0;
+    flex: 1;
+
+}
+.SearchBtn{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color: #EED4BD;
+    font-size: 19px;
+}
+
+.Flex4{
+    
+    width: 225px;
+    
+}
+.Flex4 a{
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.home-image{
+    width: 1366px;
+    height: 526px;
+    position: relative;
+}
+.home-h1{
+    position: absolute;
+    top: 220px;
+    font-size: 100px;
+    left: 200px;
+    color: white;
+}
+.home-description{
+    position: absolute;
+    top: 308px;
+    color: white;
+    width: 500px;
+    left: 200px;
+    font-size: 20px;
+}
+.home-btn{
+    position: absolute;
+    top: 410px;
+    color: white;
+    background-color: #3C1C1C;
+    left: 200px;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #EED4BD;
+    cursor: pointer;
+}
+.home-btn:hover{
+    background-color: #EED4BD;
+    color: black;
+    position: absolute;
+    top: 410px; 
+    left: 200px;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #3C1C1C;
+    cursor: pointer;
+}
+.mayor-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.yellow{
+    background-color: #EED4BD;
+    flex: 1;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.gray{
+    background-color: rgb(194, 193, 193);
+    height: 300px;
+    width: 500px;
+    display: flex;
+}
+
+
+.brown{
+    background-color: #3C1C1C;
+    flex: 1;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.brown h1, p{
+    color: white;
+    font-size: 20px;
+}
+.brown-description{
+    margin-left: 100px;
+}
+.brown h1{
+    font-size: 40px;
+    margin-left: 270px;
+
+}
+.brown-btn{
+    background-color: #EED4BD;
+    border: none;
+    padding: 10px 23px 10px 23px;
+    font-size: 17px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer;
+    color: black;
+    
+}
+.brown-btn:hover{
+    background-color: #3C1C1C;
+    border: none;
+    padding: 10px 23px 10px 23px;
+    font-size: 17px;
+    border-radius: 50px;
+    border-width: 1px;
+    border-style: solid;
+    color: white;
+}
+.news{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.news-one{
+    background-color: rgb(214, 214, 214);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.news-one-box{
+    flex: 1;
+    background-color: #3C1C1C   ;
+    height: 500px;
+    border-radius: 5px;
+    
+}
+.news-one-img{
+    width: 410px;
+    height: 270px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.new-one-description{
+    margin-left: 10px;
+
+}
+.page-select{
+    flex: 1;
+    display: flex;
+    margin-top: 40px;
+    height: 40px;
+    margin-left: 69px;
+    margin-right: 46px;
+    background-color: #646463;
+    align-items: center;
+    justify-content: end;
+    border-radius: 2px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    background-color: #EED4BD;
+    font-weight: bold;
+
+
+}
+.footer p{
+    color: black;
+    font-size: 19px;
+}

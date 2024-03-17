@@ -1,0 +1,57 @@
+body{
+    background-color: #3C1C1C;
+}
+.popular-places-in-makati{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+   
+}
+.popular-places-in-makati h1{
+    font-size: 60px;
+    color: rgb(226, 156, 115);
+    margin-bottom: 27px;
+}
+.popular-places-in-makati-imgs{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.popular-places-in-makati-container{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.popular-places-in-makati-imgs img{
+    width: 700px;
+}
+.pic-onep-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.popular-places-in-makati-imgs-two{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.pic-onep{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pic-oneps{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pic-onep img{
+    width: 278px;
+    height: 197px;
+    
+}
+.pic-oneps img{
+    width: 278px;
+    height: 197px;
+}
